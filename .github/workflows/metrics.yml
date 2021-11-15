@@ -11,7 +11,7 @@ on:
       name:
         description: 'Start Metrics Workflow'
         required: true
-        default: 'Metrics for Zakon Technomantów'    
+        default: 'Metrics for SPECjaliści'    
 jobs:
   build:
     runs-on: ubuntu-latest
