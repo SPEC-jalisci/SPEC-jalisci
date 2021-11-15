@@ -8,10 +8,9 @@ on:
     - cron: '0 0 * * MON'
   workflow_dispatch:
       inputs:
-      name:
-        description: 'Start Metrics Workflow'
-        required: true
-        default: 'Metrics for SPECjaliści'    
+          description: 'Start Metrics Workflow'
+          required: true
+          name: 'Metrics for SPECjaliści'
 jobs:
   build:
     runs-on: ubuntu-latest
